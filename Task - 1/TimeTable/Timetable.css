@@ -1,0 +1,48 @@
+/* ===== General Page Styling ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 20px;
+}
+
+/* ===== Heading ===== */
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+/* ===== Table Wrapper (for horizontal scroll on small screens) ===== */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* ===== Table Styling ===== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1000px;
+  background-color: #ffffff;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 13px;
+}
+
+th {
+  font-weight: bold;
+}
+
+/* Day name column */
+tbody th {
+  white-space: nowrap;
+}
